@@ -1,4 +1,4 @@
-# Problem: Apply Operations to an Array  
+# Problem 2460: Apply Operations to an Array  
 
 ## Problem Description  
 Given a non-negative integer array, the goal is to apply a series of operations to transform the array based on specific rules. If two adjacent elements are equal, the left element is doubled, and the right element is set to zero. After processing the array, all zeros are shifted to the end while maintaining the relative order of non-zero elements.  
