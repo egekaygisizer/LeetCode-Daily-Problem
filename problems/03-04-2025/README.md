@@ -1,5 +1,5 @@
 
-# Problem 2161: Partition Array According to Given Pivot  
+# Problem 1780: Check if Number is a Sum of Powers of Three  
 
 ## Problem Description  
 
