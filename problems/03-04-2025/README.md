@@ -9,17 +9,15 @@ An integer `y` is a power of three if there exists an integer `x` such that `y =
 ### Example 1  
 **Input:**  
 ```plaintext
-nums = [9,12,5,10,14,3,10], pivot = 10
+n = 91
 ```  
 **Output:**  
 ```plaintext
-[9,5,3,10,10,12,14]
+true
 ```  
 **Explanation:**  
 ```plaintext
-The elements 9, 5, and 3 are less than the pivot so they are on the left side of the array.
-The elements 12 and 14 are greater than the pivot so they are on the right side of the array.
-The relative ordering of the elements less than and greater than pivot is also maintained. [9, 5, 3] and [12, 14] are the respective orderings.
+91 = 3^0 + 3^2 + 3^4
 ```
 
 ## Approach
