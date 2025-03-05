@@ -52,6 +52,7 @@ After 2 minutes, there are 4 colored cells on the boundary and 1 in the center, 
      \[
      2n(n-1) + 1
      \]
+   - This approach provides a direct computation, eliminating the need for loops and making it much faster for large values of n.
 
 
 ## Key Insights
