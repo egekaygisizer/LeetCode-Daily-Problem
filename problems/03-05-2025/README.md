@@ -11,7 +11,7 @@ There exists an infinitely large two-dimensional grid of uncolored unit cells. Y
 
 ![Grid Example](https://assets.leetcode.com/uploads/2023/01/10/example-copy-2.png)
 
-### Example 1  
+### Example  
 **Input:**  
 ```plaintext
 n = 2
@@ -24,6 +24,7 @@ n = 2
 ```plaintext
 After 2 minutes, there are 4 colored cells on the boundary and 1 in the center, so we return 5. 
 ```
+
 
 
 ## Complexity Analysis
