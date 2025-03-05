@@ -9,7 +9,7 @@ This repository is dedicated to solving the **LeetCode Daily Problem** every day
 - Maintain coding discipline through **daily problem-solving**  
 
 ## 🛠 Languages Used  
-- C  
+- C 
 - Swift  
 
 ## 🤝 Contributions  
