@@ -6,9 +6,10 @@ There exists an infinitely large two-dimensional grid of uncolored unit cells. Y
 
 * At the first minute, color any arbitrary unit cell blue.
 * Every minute thereafter, color blue every uncolored cell that touches a blue cell.
-Below is a pictorial representation of the state of the grid after minutes 1, 2, and 3.
+* Below is a pictorial representation of the state of the grid after minutes 1, 2, and 3.
 
-(![Grid Example](https://assets.leetcode.com/uploads/2023/01/10/example-copy-2.png))
+
+![Grid Example](https://assets.leetcode.com/uploads/2023/01/10/example-copy-2.png)
 
 ### Example 1  
 **Input:**  
@@ -59,8 +60,6 @@ After 2 minutes, there are 4 colored cells on the boundary and 1 in the center, 
 
 - The problem follows a structured growth pattern where, at each step, new cells are added symmetrically around the existing ones.
 - Observing the number of colored cells for small values of `n` helps derive a mathematical formula.
-- The sequence of colored cells follows a quadratic pattern: `1, 5, 13, 25, ...`.
-- The general formula derived from the pattern is:  
-  \[
-  \text{coloredCells}(n) = 2n(n-1) + 1
-  \]
+- The sequence of colored cells follows a quadratic pattern: `1, 5, 13, 25, ...`
+- The general formula derived from the pattern is:
+  `coloredCells}(n) = 2n(n-1) + 1`
