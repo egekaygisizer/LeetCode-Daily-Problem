@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <stdio.h>
-#include <string.h>
-
 int minimumRecolors(char* blocks, int k) {
 
     int blocklen = strlen(blocks);
