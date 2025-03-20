@@ -49,3 +49,8 @@ queries = [[0, 2, 1], [0, 2, 1], [1, 1, 3]]
 - This optimizes the update step, preventing TLE (Time Limit Exceeded).
 
 ---
+
+## Complexity Analysis
+-	Binary Search: O(log M)
+-	Range Updates (Difference Array): O(N)
+-	Total Time Complexity: O(N log M)
