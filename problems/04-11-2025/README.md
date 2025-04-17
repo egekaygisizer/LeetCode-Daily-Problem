@@ -23,6 +23,6 @@ Return 9
       - Compare sums of both halves
 3. Count all numbers where sums match
 
-## Time Complexity: O(N*D) where N is numbers in range, D is average digit count
-## Space Complexity: O(D) for storing digits during check
+## Time Complexity: O(n) 
+## Space Complexity: O(1) 
 
